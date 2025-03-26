@@ -1,11 +1,7 @@
 import streamlit as st
 
-
-st.write(st.context.timezone)
-st.write(st.context.timezone_offset)
-st.write(st.context.locale)
-st.write("---------------------------------")
-st.write(st.context.url)
-
+st.subheader("Headers")
 
 st.write(st.context.headers)
+
+st.write("IP Address: ", st.context.ip_address)
